@@ -28,31 +28,31 @@ export default Controller.extend({
             link: 'i-i-s-kurs3-конвер-фай-l',
             caption: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs3-конвер-фай-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs3-конвер-фай-l.title'),
-            icon: 'edit',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-kurs3-выгр-док-l',
             caption: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs3-выгр-док-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs3-выгр-док-l.title'),
-            icon: 'tags',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-kurs3-загр-файла-l',
             caption: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs3-загр-файла-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs3-загр-файла-l.title'),
-            icon: 'tasks',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-kurs3-экс-файлы-l',
             caption: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs3-экс-файлы-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs3-экс-файлы-l.title'),
-            icon: 'table',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-kurs3-конвертация-l',
             caption: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs3-конвертация-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация-файла.i-i-s-kurs3-конвертация-l.title'),
-            icon: 'phone',
+            icon: 'tags',
             children: null
           }]
         }, {
@@ -64,19 +64,19 @@ export default Controller.extend({
             link: 'i-i-s-kurs3-расширение-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs3-расширение-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs3-расширение-l.title'),
-            icon: 'folder open',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-kurs3-еди-изм-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs3-еди-изм-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs3-еди-изм-l.title'),
-            icon: 'book',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-kurs3-настр-конв-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs3-настр-конв-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs3-настр-конв-l.title'),
-            icon: 'briefcase',
+            icon: 'chart line',
             children: null
           }]
         }

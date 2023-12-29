@@ -34,9 +34,8 @@ namespace IIS.Kurs3
             "ЭксФайлы as \'Эксель файлы\'",
             "ЭксФайлы.Расширение as \'Расширение\'",
             "ЭксФайлы.Имя as \'Имя\'",
-            "Путь as \'Путь\'"}, Hidden=new string[] {
-            "ЭксФайлы.Расширение"})]
-    [AssociatedDetailViewAttribute("ЗагрФайлаE", "ТчЗагр", "ТчЗагрE", true, "", "Тч загр", true, new string[] {
+            "Путь as \'Путь\'"})]
+    [AssociatedDetailViewAttribute("ЗагрФайлаE", "ТчЗагр", "ТчЗагрE", true, "", "Атрибуты загруженного файла", true, new string[] {
             ""})]
     [MasterViewDefineAttribute("ЗагрФайлаE", "ЭксФайлы", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Расширение")]
     [View("ЗагрФайлаL", new string[] {
