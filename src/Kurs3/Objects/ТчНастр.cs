@@ -31,7 +31,7 @@ namespace IIS.Kurs3
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ТчНастрE", new string[] {
             "Атрибут as \'Атрибут\'",
-            "ТипАтр as \'Тип атр\'",
+            "ТипАтр as \'Тип атрибута\'",
             "Ограничение as \'Ограничение\'",
             "Обязательное as \'Обязательное\'"})]
     public class ТчНастр : ICSSoft.STORMNET.DataObject

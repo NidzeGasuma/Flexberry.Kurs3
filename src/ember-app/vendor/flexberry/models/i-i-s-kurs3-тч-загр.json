@@ -66,7 +66,7 @@
         },
         {
           "name": "типАтр",
-          "caption": "Тип атр",
+          "caption": "Тип атрибута",
           "hidden": false,
           "index": 1
         },

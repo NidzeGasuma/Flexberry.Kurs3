@@ -54,21 +54,21 @@
         {
           "link": "i-i-s-kurs3-расширение-l",
           "menuName": null,
-          "caption": "РасширениеL",
+          "caption": "Расширение",
           "title": "Расширение",
           "children": null
         },
         {
           "link": "i-i-s-kurs3-еди-изм-l",
           "menuName": null,
-          "caption": "ЕдиИзмL",
+          "caption": "Единицы измерения",
           "title": "Еди изм",
           "children": null
         },
         {
           "link": "i-i-s-kurs3-настр-конв-l",
           "menuName": null,
-          "caption": "НастрКонвL",
+          "caption": "Настройки конвертации",
           "title": "Настр конв",
           "children": null
         }

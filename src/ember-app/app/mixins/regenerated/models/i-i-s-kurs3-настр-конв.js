@@ -30,7 +30,7 @@ export let defineProjections = function (modelClass) {
     наименование: attr('Наименование', { index: 0 }),
     тчНастр: hasMany('i-i-s-kurs3-тч-настр', 'Атрибуты настройки', {
       атрибут: attr('Атрибут', { index: 0 }),
-      типАтр: attr('Тип атр', { index: 1 }),
+      типАтр: attr('Тип атрибута', { index: 1 }),
       ограничение: attr('Ограничение', { index: 2 }),
       обязательное: attr('Обязательное', { index: 3 })
     })

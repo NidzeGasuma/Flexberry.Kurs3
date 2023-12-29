@@ -12,6 +12,7 @@ namespace IIS.Kurs3
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -31,31 +32,37 @@ namespace IIS.Kurs3
         // *** Start programmer edit section *** (ТипАтр.string CustomAttributes)
 
         // *** End programmer edit section *** (ТипАтр.string CustomAttributes)
+        [Caption("string")]
         @string,
         
         // *** Start programmer edit section *** (ТипАтр.int CustomAttributes)
 
         // *** End programmer edit section *** (ТипАтр.int CustomAttributes)
+        [Caption("int")]
         @int,
         
         // *** Start programmer edit section *** (ТипАтр.float CustomAttributes)
 
         // *** End programmer edit section *** (ТипАтр.float CustomAttributes)
+        [Caption("float")]
         @float,
         
         // *** Start programmer edit section *** (ТипАтр.DateTime CustomAttributes)
 
         // *** End programmer edit section *** (ТипАтр.DateTime CustomAttributes)
+        [Caption("DateTime")]
         DateTime,
         
         // *** Start programmer edit section *** (ТипАтр.bool CustomAttributes)
 
         // *** End programmer edit section *** (ТипАтр.bool CustomAttributes)
+        [Caption("bool")]
         @bool,
         
         // *** Start programmer edit section *** (ТипАтр.double CustomAttributes)
 
         // *** End programmer edit section *** (ТипАтр.double CustomAttributes)
+        [Caption("double")]
         @double,
     }
 }
