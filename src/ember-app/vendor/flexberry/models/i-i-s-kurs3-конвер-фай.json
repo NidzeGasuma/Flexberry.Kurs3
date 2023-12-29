@@ -1,0 +1,224 @@
+﻿{
+  "name": "IISKurs3КонверФай",
+  "modelName": "i-i-s-kurs3-конвер-фай",
+  "className": "КонверФай",
+  "nameSpace": "IIS.Kurs3",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "путьФайла",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "выгрДок",
+      "relatedTo": "i-i-s-kurs3-выгр-док",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КонверФайE",
+      "modelName": "i-i-s-kurs3-конвер-фай",
+      "attrs": [
+        {
+          "name": "путьФайла",
+          "caption": "Путь до файла",
+          "hidden": false,
+          "index": 4
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "NewName",
+          "lookupValueField": "newName",
+          "relationName": "ВыгрДок",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "ВыгрДок.Конвертация",
+              "belongsTo": [
+                {
+                  "lookupValue": null,
+                  "lookupValueField": null,
+                  "relationName": "ВыгрДок.Конвертация.ЗагрФайла",
+                  "belongsTo": [
+                    {
+                      "lookupValue": null,
+                      "lookupValueField": null,
+                      "relationName": "ВыгрДок.Конвертация.ЗагрФайла.ЭксФайлы",
+                      "belongsTo": [],
+                      "hidden": false,
+                      "attrs": [
+                        {
+                          "name": "имя",
+                          "caption": "Старое имя",
+                          "hidden": false,
+                          "index": 1
+                        }
+                      ],
+                      "index": -1,
+                      "type": null,
+                      "caption": "",
+                      "name": "эксФайлы",
+                      "relatedTo": "i-i-s-kurs3-экс-файлы",
+                      "inverse": null
+                    }
+                  ],
+                  "hidden": false,
+                  "attrs": [],
+                  "index": -1,
+                  "type": null,
+                  "caption": "",
+                  "name": "загрФайла",
+                  "relatedTo": "i-i-s-kurs3-загр-файла",
+                  "inverse": null
+                }
+              ],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "имяДок",
+                  "caption": "Имя документа",
+                  "hidden": false,
+                  "index": 2
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "конвертация",
+              "relatedTo": "i-i-s-kurs3-конвертация",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "newName",
+              "caption": "Новое имя файла",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Выгрузка документа",
+          "name": "выгрДок",
+          "relatedTo": "i-i-s-kurs3-выгр-док",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "КонверФайL",
+      "modelName": "i-i-s-kurs3-конвер-фай",
+      "attrs": [
+        {
+          "name": "путьФайла",
+          "caption": "Путь до файла",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ВыгрДок",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "ВыгрДок.Конвертация",
+              "belongsTo": [
+                {
+                  "lookupValue": null,
+                  "lookupValueField": null,
+                  "relationName": "ВыгрДок.Конвертация.ЗагрФайла",
+                  "belongsTo": [
+                    {
+                      "lookupValue": null,
+                      "lookupValueField": null,
+                      "relationName": "ВыгрДок.Конвертация.ЗагрФайла.ЭксФайлы",
+                      "belongsTo": [],
+                      "hidden": false,
+                      "attrs": [
+                        {
+                          "name": "имя",
+                          "caption": "Старое имя",
+                          "hidden": false,
+                          "index": 2
+                        }
+                      ],
+                      "index": -1,
+                      "type": null,
+                      "caption": "",
+                      "name": "эксФайлы",
+                      "relatedTo": "i-i-s-kurs3-экс-файлы",
+                      "inverse": null
+                    }
+                  ],
+                  "hidden": false,
+                  "attrs": [],
+                  "index": -1,
+                  "type": null,
+                  "caption": "",
+                  "name": "загрФайла",
+                  "relatedTo": "i-i-s-kurs3-загр-файла",
+                  "inverse": null
+                }
+              ],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "имяДок",
+                  "caption": "Имя документа",
+                  "hidden": false,
+                  "index": 1
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "конвертация",
+              "relatedTo": "i-i-s-kurs3-конвертация",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "newName",
+              "caption": "Новое имя файла",
+              "hidden": false,
+              "index": 0
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Новое имя файла",
+          "name": "выгрДок",
+          "relatedTo": "i-i-s-kurs3-выгр-док",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

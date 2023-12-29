@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kurs3-выгр-док-e",
+  "editForm": "i-i-s-kurs3-выгр-док-e",
+  "external": false,
+  "caption": "Выгрузка документа",
+  "name": "IISKurs3ВыгрДокL",
+  "className": "ВыгрДокL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs3-выгр-док",
+      "modelProjection": "ВыгрДокL"
+    }
+  ]
+}

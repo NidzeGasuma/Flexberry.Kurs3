@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kurs3-расширение-e",
+  "editForm": "i-i-s-kurs3-расширение-e",
+  "external": false,
+  "caption": "Расширение",
+  "name": "IISKurs3РасширениеL",
+  "className": "РасширениеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs3-расширение",
+      "modelProjection": "РасширениеL"
+    }
+  ]
+}

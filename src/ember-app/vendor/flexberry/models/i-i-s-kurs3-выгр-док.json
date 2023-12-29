@@ -1,0 +1,127 @@
+﻿{
+  "name": "IISKurs3ВыгрДок",
+  "modelName": "i-i-s-kurs3-выгр-док",
+  "className": "ВыгрДок",
+  "nameSpace": "IIS.Kurs3",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "newName",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "репозиторий",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "конвертация",
+      "relatedTo": "i-i-s-kurs3-конвертация",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ВыгрДокE",
+      "modelName": "i-i-s-kurs3-выгр-док",
+      "attrs": [
+        {
+          "name": "newName",
+          "caption": "Новое имя файла",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "репозиторий",
+          "caption": "Репозиторий",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ИмяДок",
+          "lookupValueField": "имяДок",
+          "relationName": "Конвертация",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имяДок",
+              "caption": "Имя документа",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Конвертация",
+          "name": "конвертация",
+          "relatedTo": "i-i-s-kurs3-конвертация",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ВыгрДокL",
+      "modelName": "i-i-s-kurs3-выгр-док",
+      "attrs": [
+        {
+          "name": "newName",
+          "caption": "Новое имя файла",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "репозиторий",
+          "caption": "Репозиторий",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Конвертация",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имяДок",
+              "caption": "Имя документа",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Имя документа",
+          "name": "конвертация",
+          "relatedTo": "i-i-s-kurs3-конвертация",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

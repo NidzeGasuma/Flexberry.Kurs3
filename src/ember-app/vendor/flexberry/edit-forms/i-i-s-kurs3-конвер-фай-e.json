@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ВыгрДок",
+      "projection": "ВыгрДокL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Конвертированные файлы",
+  "name": "IISKurs3КонверФайE",
+  "className": "КонверФайE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs3-конвер-фай",
+      "modelProjection": "КонверФайE"
+    }
+  ]
+}

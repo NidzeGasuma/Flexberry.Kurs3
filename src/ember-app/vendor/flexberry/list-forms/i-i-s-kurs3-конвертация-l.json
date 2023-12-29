@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kurs3-конвертация-e",
+  "editForm": "i-i-s-kurs3-конвертация-e",
+  "external": false,
+  "caption": "Конвертация",
+  "name": "IISKurs3КонвертацияL",
+  "className": "КонвертацияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs3-конвертация",
+      "modelProjection": "КонвертацияL"
+    }
+  ]
+}

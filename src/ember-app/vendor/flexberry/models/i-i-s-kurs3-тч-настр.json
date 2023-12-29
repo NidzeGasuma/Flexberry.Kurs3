@@ -1,0 +1,93 @@
+﻿{
+  "name": "IISKurs3ТчНастр",
+  "modelName": "i-i-s-kurs3-тч-настр",
+  "className": "ТчНастр",
+  "nameSpace": "IIS.Kurs3",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "атрибут",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "обязательное",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "ограничение",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "типАтр",
+      "type": "i-i-s-kurs3-тип-атр",
+      "flexberryType": "ТипАтр",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "настрКонв",
+      "relatedTo": "i-i-s-kurs3-настр-конв",
+      "inverse": "тчНастр"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТчНастрE",
+      "modelName": "i-i-s-kurs3-тч-настр",
+      "attrs": [
+        {
+          "name": "атрибут",
+          "caption": "Атрибут",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "типАтр",
+          "caption": "Тип атр",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "ограничение",
+          "caption": "Ограничение",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "обязательное",
+          "caption": "Обязательное",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

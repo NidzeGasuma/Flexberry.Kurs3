@@ -1,0 +1,12 @@
+﻿{
+  "nameSpace": "IIS.Kurs3",
+  "className": "ТипАтр",
+  "enumObjects": {
+    "string": "",
+    "int": "",
+    "float": "",
+    "DateTime": "",
+    "bool": "",
+    "double": ""
+  }
+}

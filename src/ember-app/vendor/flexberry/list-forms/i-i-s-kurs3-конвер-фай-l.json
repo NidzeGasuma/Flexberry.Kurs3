@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kurs3-конвер-фай-e",
+  "editForm": "i-i-s-kurs3-конвер-фай-e",
+  "external": false,
+  "caption": "Конвертированные файлы",
+  "name": "IISKurs3КонверФайL",
+  "className": "КонверФайL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs3-конвер-фай",
+      "modelProjection": "КонверФайL"
+    }
+  ]
+}

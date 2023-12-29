@@ -1,0 +1,1 @@
+docker-compose -p kurs3-java up -d

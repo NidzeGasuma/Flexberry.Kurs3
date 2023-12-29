@@ -1,0 +1,104 @@
+<h3 class="ui header">{{t "forms.i-i-s-kurs3-экс-файлы-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kurs3-экс-файлы-e.дата-caption"}}</label>
+    {{flexberry-simpledatetime
+      type="date"
+      readonly=readonly
+      value=model.дата
+      class=(if (v-get validationModel "дата" "isInvalid") "error")
+      data-test-i-i-s-kurs3-экс-файлы-e-дата=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "дата" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.репозиторий
+      class=(if (v-get validationModel "репозиторий" "isInvalid") "error")
+      label=(t "forms.i-i-s-kurs3-экс-файлы-e.репозиторий-caption")
+      data-test-i-i-s-kurs3-экс-файлы-e-репозиторий=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "репозиторий" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.имя
+      class=(if (v-get validationModel "имя" "isInvalid") "error")
+      label=(t "forms.i-i-s-kurs3-экс-файлы-e.имя-caption")
+      data-test-i-i-s-kurs3-экс-файлы-e-имя=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "имя" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kurs3-экс-файлы-e.расширение-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.расширение
+      displayAttributeName="наименование"
+      autocomplete=true
+      relationName="расширение"
+      projection="РасширениеL"
+      title=(t "forms.i-i-s-kurs3-экс-файлы-e.расширение-caption")
+      readonly=readonly
+      componentName="расширениеLookup"
+      class=(if (v-get validationModel "расширение" "isInvalid") "error")
+      data-test-i-i-s-kurs3-экс-файлы-e-расширение=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "расширение" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.размер
+      class=(if (v-get validationModel "размер" "isInvalid") "error")
+      label=(t "forms.i-i-s-kurs3-экс-файлы-e.размер-caption")
+      data-test-i-i-s-kurs3-экс-файлы-e-размер=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "размер" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kurs3-экс-файлы-e.едиИзм-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.едиИзм
+      displayAttributeName="наименование"
+      autocomplete=true
+      relationName="едиИзм"
+      projection="ЕдиИзмL"
+      title=(t "forms.i-i-s-kurs3-экс-файлы-e.едиИзм-caption")
+      readonly=readonly
+      componentName="едиИзмLookup"
+      class=(if (v-get validationModel "едиИзм" "isInvalid") "error")
+      data-test-i-i-s-kurs3-экс-файлы-e-едиИзм=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "едиИзм" "message")}}
+  </div>
+</form>

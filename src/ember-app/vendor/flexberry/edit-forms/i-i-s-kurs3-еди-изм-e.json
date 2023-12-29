@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Единицы измерения",
+  "name": "IISKurs3ЕдиИзмE",
+  "className": "ЕдиИзмE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs3-еди-изм",
+      "modelProjection": "ЕдиИзмE"
+    }
+  ]
+}

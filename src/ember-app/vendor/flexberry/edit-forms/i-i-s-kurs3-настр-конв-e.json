@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Настройки конвертации",
+  "name": "IISKurs3НастрКонвE",
+  "className": "НастрКонвE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs3-настр-конв",
+      "modelProjection": "НастрКонвE"
+    }
+  ]
+}

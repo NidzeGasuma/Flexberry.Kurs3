@@ -1,0 +1,89 @@
+﻿{
+  "name": "IISKurs3ЗагрФайла",
+  "modelName": "i-i-s-kurs3-загр-файла",
+  "className": "ЗагрФайла",
+  "nameSpace": "IIS.Kurs3",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "путь",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "эксФайлы",
+      "relatedTo": "i-i-s-kurs3-экс-файлы",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "тчЗагр",
+      "relatedTo": "i-i-s-kurs3-тч-загр",
+      "inverse": "загрФайла"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ЗагрФайлаE",
+      "modelName": "i-i-s-kurs3-загр-файла",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "путь",
+          "caption": "Путь",
+          "hidden": false,
+          "index": 4
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЗагрФайлаL",
+      "modelName": "i-i-s-kurs3-загр-файла",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "путь",
+          "caption": "Путь",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,79 @@
+﻿{
+  "applicationCaption": "Конвертированние файла",
+  "applicationTitle": "Kurs3",
+  "items": [
+    {
+      "link": null,
+      "menuName": "конвертация-файла",
+      "caption": "Конвертация файла",
+      "title": "Конвертация файла",
+      "children": [
+        {
+          "link": "i-i-s-kurs3-конвер-фай-l",
+          "menuName": null,
+          "caption": "Конвертированные файлы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs3-выгр-док-l",
+          "menuName": null,
+          "caption": "Выгрузка документа",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs3-загр-файла-l",
+          "menuName": null,
+          "caption": "Загрузка файла",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs3-экс-файлы-l",
+          "menuName": null,
+          "caption": "Эксель файлы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs3-конвертация-l",
+          "menuName": null,
+          "caption": "Конвертация",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочники",
+      "caption": "Справочники",
+      "title": "Справочники",
+      "children": [
+        {
+          "link": "i-i-s-kurs3-расширение-l",
+          "menuName": null,
+          "caption": "РасширениеL",
+          "title": "Расширение",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs3-еди-изм-l",
+          "menuName": null,
+          "caption": "ЕдиИзмL",
+          "title": "Еди изм",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs3-настр-конв-l",
+          "menuName": null,
+          "caption": "НастрКонвL",
+          "title": "Настр конв",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

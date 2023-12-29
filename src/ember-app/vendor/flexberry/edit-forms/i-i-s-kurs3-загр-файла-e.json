@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ЭксФайлы",
+      "projection": "ЭксФайлыL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Загрузка файла",
+  "name": "IISKurs3ЗагрФайлаE",
+  "className": "ЗагрФайлаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs3-загр-файла",
+      "modelProjection": "ЗагрФайлаE"
+    }
+  ]
+}

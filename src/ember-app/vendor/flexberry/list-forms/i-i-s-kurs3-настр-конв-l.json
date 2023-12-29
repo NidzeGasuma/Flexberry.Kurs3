@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kurs3-настр-конв-e",
+  "editForm": "i-i-s-kurs3-настр-конв-e",
+  "external": false,
+  "caption": "Настройки конвертации",
+  "name": "IISKurs3НастрКонвL",
+  "className": "НастрКонвL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs3-настр-конв",
+      "modelProjection": "НастрКонвL"
+    }
+  ]
+}

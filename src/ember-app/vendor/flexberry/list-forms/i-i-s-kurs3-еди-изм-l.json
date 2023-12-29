@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kurs3-еди-изм-e",
+  "editForm": "i-i-s-kurs3-еди-изм-e",
+  "external": false,
+  "caption": "Единицы измерения",
+  "name": "IISKurs3ЕдиИзмL",
+  "className": "ЕдиИзмL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs3-еди-изм",
+      "modelProjection": "ЕдиИзмL"
+    }
+  ]
+}

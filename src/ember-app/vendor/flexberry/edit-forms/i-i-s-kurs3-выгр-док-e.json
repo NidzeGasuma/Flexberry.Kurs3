@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Конвертация",
+      "projection": "КонвертацияL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Выгрузка документа",
+  "name": "IISKurs3ВыгрДокE",
+  "className": "ВыгрДокE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs3-выгр-док",
+      "modelProjection": "ВыгрДокE"
+    }
+  ]
+}

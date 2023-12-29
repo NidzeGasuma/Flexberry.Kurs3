@@ -1,0 +1,68 @@
+﻿{
+  "name": "IISKurs3НастрКонв",
+  "modelName": "i-i-s-kurs3-настр-конв",
+  "className": "НастрКонв",
+  "nameSpace": "IIS.Kurs3",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "тчНастр",
+      "relatedTo": "i-i-s-kurs3-тч-настр",
+      "inverse": "настрКонв"
+    }
+  ],
+  "projections": [
+    {
+      "name": "НастрКонвE",
+      "modelName": "i-i-s-kurs3-настр-конв",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ТчНастрE",
+          "caption": "Атрибуты настройки",
+          "name": "тчНастр",
+          "relatedTo": "i-i-s-kurs3-тч-настр",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "НастрКонвL",
+      "modelName": "i-i-s-kurs3-настр-конв",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
